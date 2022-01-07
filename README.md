@@ -27,6 +27,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Installation
+### Check out my [walkthrough video](https://watch.screencastify.com/v/EVuldJn4jStS2FNqpPXC) explaining how to install and run this project
 In order to use this project, you can clone this repository onto your own system. Create your own `.env` containing your MYSQL username and password, and the database name. Make sure to also create a `.gitignore` file in the projects root directory with `node_modules`, `.env`, and `.DS_Store` in good practice. This application requires node.js, [Sequelize](https://www.npmjs.com/package/sequelize), [MYSQL2](https://www.npmjs.com/package/mysql2), and [dotenv](https://www.npmjs.com/package/dotenv). This requires entering the command `npm init` to initialize node.js in the projects root directory, followed by `node install sequelize mysql2 dotenv`. You will also need to have Insomnia in order to test the API routes and view the data on the backend.
 
 ## Usage
